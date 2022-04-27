@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Contact Form - Nicolas Benais</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="/assets/JS/main.js"></script>
+    <link rel="stylesheet" href="/assets/css/reset.css" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway+Dots&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- TITLE -->
+    <div id="title">
+      <h1>Get in touch !</h1>
+    </div>
+
+    <!-- CONTACT FORM -->
+    <form id="contactForm">
+      <!-- CONTACT FORM TITLE -->
+      <div id="top-part">
+        <h2>Contact Form</h2>
+      </div>
+
+      <!-- LEFT AND RIGHT PARTS -->
+      <div id="left-and-right-parts">
+        <!-- LEFT PART  - INFORMATIONS -->
+        <div id="left-part">
+          <div>
+            <span>Your name</span>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              value=""
+              placeholder="Your name"
+            />
+          </div>
+          <div>
+            <span>E-mail</span>
+            <input
+              type="text"
+              name="email"
+              id="email"
+              value=""
+              placeholder="Your e-mail"
+            />
+          </div>
+          <div>
+            <span>Phone</span>
+            <input
+              type="tel"
+              name="phone"
+              id="phone"
+              value=""
+              placeholder="Your phone number"
+            />
+          </div>
+        </div>
+
+        <!-- RIGHT PART  - MESSAGE -->
+        <div id="right-part">
+          <span>Message</span>
+          <textarea
+            name="message"
+            id="message"
+            value=""
+            placeholder="Your message"
+          ></textarea>
+        </div>
+      </div>
+
+      <!-- SUBMIT BUTTON -->
+      <button type="submit">Send Message</button>
+    </form>
+  </body>
+</html>
